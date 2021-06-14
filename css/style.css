@@ -212,7 +212,7 @@ color: #e63946;
   font-size: 14px;
   font-weight: 500;
   text-transform: none;
-  color: #151515;
+  color: #215ca0;
 }
 
 .nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
@@ -312,7 +312,7 @@ color: #e63946;
   left: 15px;
   z-index: 9999;
   overflow-y: auto;
-  background: #fff;
+  background: #215ca0;
   transition: ease-in-out 0.2s;
   opacity: 0;
   visibility: hidden;
@@ -336,7 +336,7 @@ color: #e63946;
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-  color: #151515;
+  color: #215ca0;
   text-decoration: none;
   background: #e51a03;
 }
