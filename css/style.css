@@ -127,7 +127,7 @@ color: #e63946;
 }
 
 #header .logo {
-  font-size: 32px;
+  font-size: 42px;
   margin: 0;
   padding: 0;
   line-height: 1;
@@ -173,7 +173,7 @@ color: #e63946;
   position: relative;
   color: #fff;
   transition: 0.3s;
-  font-size: 15px;
+  font-size: 1.4rem;
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
 }
@@ -329,7 +329,7 @@ color: #e63946;
 .mobile-nav a {
   display: block;
   position: relative;
-  color: #151515;
+  color: white;
   padding: 10px 20px;
   font-weight: 500;
   outline: none;
@@ -570,6 +570,11 @@ section {
 
 p.about2 {
   color: white;
+  font-size: 1.2rem;
+}
+
+.schedule {
+font-size: 1.2rem;
 }
 
 /*--------------------------------------------------------------
