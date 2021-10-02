@@ -30,6 +30,14 @@ color: #e63946;
 .center {
   text-align: center;
 }
+.list{
+  list-style-type: none;
+  font-size: 1.2rem;
+  text-align: center;
+
+}
+
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
