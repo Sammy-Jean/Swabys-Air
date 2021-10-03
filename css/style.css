@@ -350,7 +350,7 @@ text-align: left;}
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
   color: #215ca0;
   text-decoration: none;
-  background: #e51a03;
+  background: #f77668;
 }
 
 .mobile-nav .drop-down > a:after {
