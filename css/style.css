@@ -37,7 +37,9 @@ color: #e63946;
 
 }
 
+.left {
 
+text-align: left;}
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -667,6 +669,13 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+
+.h3 {
+  font-weight: 700;
+  font-size: 28px;
+  font-family: "Poppins", sans-serif;
+}
+
 .about .content h3 {
   font-weight: 700;
   font-size: 28px;
@@ -709,6 +718,8 @@ font-size: 1.2rem;
 --------------------------------------------------------------*/
 .clients {
   padding-top: 20px;
+    background: #215ca0;
+    color: white;
 }
 
 .clients .owl-item {
@@ -719,10 +730,10 @@ font-size: 1.2rem;
 }
 
 .clients .owl-item img {
-  width: 70%;
-  opacity: 0.5;
+  width: 75%;
+  opacity: 1;
   transition: 0.3s;
-  filter: grayscale(100);
+  /* filter: grayscale(25); */
 }
 
 .clients .owl-item img:hover {
@@ -1101,7 +1112,7 @@ font-size: 1.2rem;
   right: 0;
   top: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.7);
+  background: #215ca0;
 }
 
 .testimonials .section-header {
@@ -1134,7 +1145,7 @@ font-size: 1.2rem;
 }
 
 .testimonials .testimonial-item .quote-icon-left, .testimonials .testimonial-item .quote-icon-right {
-  color: rgba(255, 255, 255, 0.6);
+  color: #e63946;
   font-size: 26px;
 }
 

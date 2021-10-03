@@ -11,11 +11,14 @@
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-B38RMEH3FJ"></script>
   <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+    window.dataLayer = window.dataLayer || [];
 
-    gtag('config', 'G-B38RMEH3FJ');
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-B38RMEH3FJ');
   </script>
   <!-- Favicons -->
   <link href="assets/img/favicon.ico" rel="icon">
@@ -45,7 +48,7 @@
   <header id="header" class="fixed-top ">
     <div class="container d-flex align-items-center justify-content-between">
 
-      <h1 class="logo mt-2"><a href="index.html">Swaby's<br /><span></span></a> <a class="btn btn-danger btn-lg center" href="tel:5612471468">Call Now</a></h1>
+      <h1 class="logo mt-2"><a href="index.html">Swaby's<br /><span></span></a> <a class="btn btn-danger btn-lg center " href="tel: 5612471468">Call Now</a></h1>
 
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo"><img src="assets/img/Swaby_logo_icon_1080.png" alt="" class="img-fluid"></a> -->
@@ -54,7 +57,7 @@
 
       <nav class="nav-menu mt-2 d-none d-lg-block">
         <ul>
-          <li class="active"><a href="#header">Home</a></li>
+          <li class="active"><a href="index.html">Home</a></li>
           <!-- <li><a href="#about">About</a></li> -->
           <li class="drop-down"><a href="">Services</a>
             <ul>
@@ -69,26 +72,21 @@
                   </ul>
                 </li> -->
               <!-- <li><a href="#">AC Installation</a></li> -->
-            <li><a href="AC-Maintenance.html">AC Maintenance</a></li>
+              <li><a href="AC-Maintenance.html">AC Maintenance</a></li>
               <li><a href="UV-Lights.html">Air Quality</a></li>
               <!-- <li><a href="#">Smart Thermostats</a></li> -->
             </ul>
           </li>
 
           <li><a href="#testimonials">Review</a></li>
-          <!-- <li><a href="#portfolio">Portfolio</a></li> -->
-          <!-- <li><a href="">Payments</a></li> -->
           <li><a href="#about">Membership</a></li>
           <li><a href="tel:5612471468">Contact</a></li>
-          <li>
-            <!-- <a href="#" <button type="button" class="btn btn-dark btn-md">Schedule Now</button></a> -->
-          </li>
+          <li><a href="offers.html">Offers</a></li>
         </ul>
       </nav>
-
       <!-- .nav-menu -->
 
-      <!-- <a href="#about" class="get-started-btn scrollto">Get Started</a> -->
+      <!-- <a href="#about" class="get-started-btn scrollto">Get Started</a>  -->
 
     </div>
   </header>
@@ -105,7 +103,7 @@
           <p class="about2"><br />
             Swaby’s Heating and Air is a residential air conditioning contractor in Florida. Serving the West Palm Beach area since 2001, our customers are our #1 priority.
           </p>
-            <!-- <a class="btn btn-danger btn-lg" href="tel: 5612471468">Call Now</a> -->
+          <a class="btn btn-danger btn-lg center" href="tel:5612471468">Call Now</a>
         </div>
       </div>
 
@@ -166,19 +164,29 @@
               <li><i class="ri-check-double-line"></i> Industry leading and Knowlegable service technicians.</li>
               <li><i class="ri-check-double-line"></i> We are open 24/7 service including holidays nights and weekends to ensure you get the best service.</li>
             </ul>
-              <a class="btn btn-danger btn-lg" href="tel: 5612471468">Call Now</a>
+            <a class="btn btn-danger btn-lg" href="tel: 5612471468">Call Now</a>
             <p>
             </p>
           </div>
         </div>
 
       </div>
-    </section><!-- End About Section -->
+    </section>
+    <!-- End About Section -->
 
     <!-- ======= Clients Section ======= -->
-    <section id="clients" class="clients">
-      <div class="container" data-aos="zoom-in">
+    <section id="clients" class="clients ">
+      <div class="container blue" data-aos="zoom-in">
 
+
+
+        <div class="text-center m-3">
+          <h3>Schedule an Appointment</h3>
+          <p class="schedule">We offer a wide range of services to customers throughout Florida. <br /><br />Give us a call today or book an appointment online!</p>
+          <a class="cta-btn btn btn-danger btn-lg" href="tel:5612471468"> 561.247.1468</a>
+          <a class="btn btn-danger btn-lg m-2" href="https://calendly.com/swabysac">Book Now</a>
+          <h3 class="mt-5"> We service all brands</h3>
+        </div>
         <div class="owl-carousel clients-carousel">
           <img src="assets/img/clients/client-1.png" alt="">
           <img src="assets/img/clients/client-2.png" alt="">
@@ -189,18 +197,12 @@
           <img src="assets/img/clients/client-7.png" alt="">
           <img src="assets/img/clients/client-8.png" alt="">
         </div>
-        <div class="text-center mt-2">
-
-          <h3>Schedule an Appointment</h3>
-          <p class="schedule">We offer a wide range of services to customers throughout Florida. <br />Give us a call today or book an appointment online!</p>
-          <a class="cta-btn btn btn-danger btn-lg" href="tel:5612471468"> 561.247.1468</a>
-          <a href="https://calendly.com/swabysac"  class="btn btn-danger btn-lg">Book Now</a>
-        </div>
-
       </div>
 
 
-    </section><!-- End Clients Section -->
+    </section>
+    <!-- =======  End Clients Section ======= -->
+
 
     <!-- ======= Features Section ======= -->
     <section id="features" class="features">
@@ -240,14 +242,117 @@
           <a href="https://calendly.com/swabysac" class="btn btn-danger btn-lg">Book Now</a>
         </div>
       </div>
-    </section><!-- End Features Section -->
+    </section>
+    <!-- End Features Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Services</h2>
+          <p>Check our Services</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-box">
+              <div class="icon"><i class="fas fa-wrench fa-2x"></i></div>
+              <h4><a href="pb-ac-repair.html">HVAC Repair</a></h4>
+              <p>Any time your air conditioning system doesn’t work properly — it feels like an emergency. When that happens, calling a reputable heating and air conditioning company that offers emergency repair service is a must.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
+            <div class="icon-box">
+              <div class="icon"><i class="fas fa-file-alt fa-2x"></i></div>
+              <h4><a href="AC-Maintenance.html">Maintenance Services</a></h4>
+              <p>Not all heating service calls are emergencies. At Swaby Heating and Air
+                , we also provide maintenance services that can help prevent breakdowns and other heating repair issues.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
+            <div class="icon-box">
+              <div class="icon"><i class="fas fa-screwdriver fa-2x"></i></div>
+              <h4><a href="">Commercial <br />&<br /> Residental Installation</a></h4>
+              <p>Schedule your FREE in-home consultation today! If you need your heating or ac unit replaced, Swaby Heating and Air
+                can take care of your installation.</p>
+            </div>
+          </div>
+
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
+            <div class="icon-box">
+              <div class="icon"><i class="fas fa-file-alt fa-2x"></i></div>
+              <h4><a href="#about">Swaby's Club Membership
+                </a></h4>
+              <p>Scheduling an annual air conditioner maintenance appointment with Swaby will save you money and prolong the life of your HVAC unit.</p>
+            </div>
+          </div>
+
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
+            <div class="icon-box">
+              <div class="icon"><i class="fas fa-fan fa-2x"></i></div>
+              <h4><a href="UV-Lights.html">Indoor Air Quality</a></h4>
+              <p>The quality of the air we breathe, indoors and outdoors, has a direct effect on our health and comfort. Scheduling an appointment today to have one of our certififed technicians to test your air quality. </p>
+            </div>
+          </div>
+
+
+
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- End Services Section -->
+
+
 
     <!-- ======= Testimonials Section ======= -->
-      <h1 class="center m-1">Customer Reviews</h1>
+    <h3 class="center m-1 h3">Customer Reviews</h3>
     <section id="testimonials" class="testimonials">
       <div class="container" data-aos="zoom-in">
-
         <div class="owl-carousel testimonials-carousel">
+
+          <div class="testimonial-item">
+            <img src="assets/img/user-solid.svg" class="testimonial-img" alt="">
+            <h3>Jim P.</h3>
+            <h4></h4>
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              Had my wife's 3 out of town friends in town and main AC froze up. Called Swaby on Saturday night and received a call back at 7 am Sunday to say they were on their way. Patrick stayed until 1:30 defrosting the coil in order to determine
+              the problem. Recharged the unit and checking on parts availability to do a final fix. He couldn't have been nicer! Very professional! You won't be sorry if you use them!
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+          </div>
+
+          <div class="testimonial-item">
+            <img src="assets/img/user-solid.svg" class="testimonial-img" alt="">
+            <h3>Lianne T.</h3>
+            <h4></h4>
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              Patrick and Scott are very efficient and responsive.. honest, hardworking and reasonably priced. Couldn’t be happier with them, and will most definitely be referring them to others within my condo building and beyond.. finally an honest
+              AC company without all the “smoke and mirrors” snd false promises.. even my building manager commented they did a great job! Highly recommend! Many thanks again! Sincerely, Mara at Flagler pointe
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+          </div>
+
+          <div class="testimonial-item">
+            <img src="assets/img/user-solid.svg" class="testimonial-img" alt="">
+            <h3>Claire R.</h3>
+            <h4></h4>
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              Patrick came back in record time with the replacement parts and had our AC running smoothly again. Now the unit works perfectly and looks brand new. It is comforting to have someone you can trust who does good work.
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+          </div>
+
 
           <div class="testimonial-item">
             <img src="assets/img/user-solid.svg" class="testimonial-img" alt="">
@@ -255,8 +360,10 @@
             <h4></h4>
             <p>
               <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-              Extremely reliable, on time company I just had service my ac. Thank goodness for Patrick Swaby. I thought maybe my compressor was broken, turns out I need some gas and he even found mold in the handler I wasn't aware of. Last guy that was here didn't even point that out. He was very kind, punctual and informative. I also really like the fact that they're a local family owned business. That menas something I've also contracted them to come out twice a year for routine maintenance. One less headache I need to worry about. <br />
-  Thanks Patrick!
+              Extremely reliable, on time company I just had service my ac. Thank goodness for Patrick Swaby. I thought maybe my compressor was broken, turns out I need some gas and he even found mold in the handler I wasn't aware of. Last guy that
+              was here didn't even point that out. He was very kind, punctual and informative. I also really like the fact that they're a local family owned business. That menas something I've also contracted them to come out twice a year for routine
+              maintenance. One less headache I need to worry about. <br />
+              Thanks Patrick!
               <i class="bx bxs-quote-alt-right quote-icon-right"></i>
             </p>
           </div>
@@ -267,7 +374,9 @@
             <h4></h4>
             <p>
               <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-              I called Swaby's Heating & Air to inspect my indoor unit before selling our home; the crew set up an appointment the next day!  They examined the indoor unit and the outdoor as well. They gave me a very detailed report on the units and recommendations on maintenance.They were not pushy to sell me any services and even told me how to maintain the system myself. We ended up having them clean out the inside unit and purchased a maintenance package for our next home. So happy we went with Swaby's; they are kind, professional, and knowledgeable!! <br /> Thanks Swaby!
+              I called Swaby's Heating & Air to inspect my indoor unit before selling our home; the crew set up an appointment the next day! They examined the indoor unit and the outdoor as well. They gave me a very detailed report on the units and
+              recommendations on maintenance.They were not pushy to sell me any services and even told me how to maintain the system myself. We ended up having them clean out the inside unit and purchased a maintenance package for our next home. So
+              happy we went with Swaby's; they are kind, professional, and knowledgeable!! <br /> Thanks Swaby!
               <i class="bx bxs-quote-alt-right quote-icon-right"></i>
             </p>
           </div>
@@ -282,29 +391,6 @@
               <i class="bx bxs-quote-alt-right quote-icon-right"></i>
             </p>
           </div>
-
-          <!-- <div class="testimonial-item">
-            <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-            <h3>Matt Brandon</h3>
-            <h4>Freelancer</h4>
-            <p>
-              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-              Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
-              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-            </p>
-          </div> -->
-
-          <!-- <div class="testimonial-item">
-            <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-            <h3>John Larson</h3>
-            <h4>Entrepreneur</h4>
-            <p>
-              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-              Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
-              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-            </p>
-          </div> -->
-
         </div>
         <div class="center mt-3">
           <a class="btn btn-danger btn-lg center" href="https://g.page/r/CS4KTekc2gm4EAg/review">Leave a Review</a>
@@ -321,84 +407,7 @@
 
 
 
-    <!-- ======= Services Section ======= -->
-    <section id="services" class="services">
-      <div class="container" data-aos="fade-up">
 
-        <div class="section-title">
-          <h2>Services</h2>
-          <p>Check our Services</p>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
-            <div class="icon-box">
-              <div class="icon"><i class="fas fa-wrench fa-2x"></i></div>
-              <h4><a href="">HVAC Repair</a></h4>
-              <p>Any time your air conditioning system doesn’t work properly — it feels like an emergency. When that happens, calling a reputable heating and air conditioning company that offers emergency repair service is a must.</p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
-            <div class="icon-box">
-              <div class="icon"><i class="fas fa-file-alt fa-2x"></i></div>
-              <h4><a href="">Maintenance Services</a></h4>
-              <p>Not all heating service calls are emergencies. At Swaby Heating and Air
-                , we also provide maintenance services that can help prevent breakdowns and other heating repair issues.</p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
-            <div class="icon-box">
-              <div class="icon"><i class="fas fa-screwdriver fa-2x"></i></div>
-              <h4><a href="">Residental Installation</a></h4>
-              <p>Schedule your FREE in-home consultation today! If you need your heating or ac unit replaced, Swaby Heating and Air
-                can take care of your installation.</p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
-            <div class="icon-box">
-              <div class="icon"><i class="fas fa-building fa-2x"></i></div>
-              <h4><a href="">Commercial Installation</a></h4>
-              <p>We are a premier provider of industrial & commercial air conditioning services. We have a team of certified HVAC professionals, capable of servicing systems of all types.</p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
-            <div class="icon-box">
-              <div class="icon"><i class="fas fa-filter fa-2x"></i></div>
-              <h4><a href="">Ductwork Installation</a></h4>
-              <p>Ductwork is paramount to a healthy, functioning HVAC system. Ignoring duct issues or having a duct system improperly installed can lead to higher utility costs, lower HVAC lifespan, and poor air quality. Our expert technicians are
-                available to replace, repair and install your ductwork.</p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
-            <div class="icon-box">
-              <div class="icon"><i class="fas fa-file-alt fa-2x"></i></div>
-              <h4><a href="">Swaby's Club Membership
-                </a></h4>
-              <p>Scheduling an annual air conditioner maintenance appointment with Swaby will save you money and prolong the life of your HVAC unit.</p>
-            </div>
-          </div>
-
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
-            <div class="icon-box">
-              <div class="icon"><i class="fas fa-fan fa-2x"></i></div>
-              <h4><a href="">Indoor Air Quality</a></h4>
-              <p>The quality of the air we breathe, indoors and outdoors, has a direct effect on our health and comfort. Scheduling an appointment today to have one of our certififed technicians to test your air quality. </p>
-            </div>
-          </div>
-
-
-
-
-        </div>
-
-      </div>
-    </section><!-- End Services Section -->
 
     <!-- ======= Cta Section ======= -->
     <section id="cta" class="cta">
@@ -408,7 +417,7 @@
           <h3>Schedule an appointment</h3>
           <p>We offer a wide range of services to customers throughout West Palm Beach. <br />Give us a call today!</p>
           <a class="btn btn-danger btn-lg" href="tel: 5612471468"> 561.247.1468 </a>
-            <a href="https://calendly.com/swabysac" class="btn btn-danger btn-lg" >Book Now</a>
+          <a href="https://calendly.com/swabysac" class="btn btn-danger btn-lg">Book Now</a>
         </div>
 
       </div>
@@ -720,7 +729,7 @@
 
     <!-- End Team Section -->
 
-<!-- End Contact Section -->
+    <!-- End Contact Section -->
 
   </main><!-- End #main -->
 
@@ -734,9 +743,9 @@
             <div class="footer-info">
               <h3>Swaby's Heating & Air<span></span>
               </h3>
-                <strong>Palm Beach:</strong><br /> 4501 Lake Lucerne Circle, West Palm Beach, FL 33401<br>
-                <strong>Phone:</strong><br><a href="tel:561-247-1468">561-247-1468</a><br>
-                <strong>Email:</strong> <br><a href="mailto:info@Swabysac.com">info@Swabysac.com</a><br />
+              <strong>Palm Beach:</strong><br /> 4501 Lake Lucerne Circle, West Palm Beach, FL 33401<br>
+              <strong>Phone:</strong><br><a href="tel:561-247-1468">561-247-1468</a><br>
+              <strong>Email:</strong> <br><a href="mailto:info@Swabysac.com">info@Swabysac.com</a><br />
               </p><br />
               <p>
                 <strong> <a href="mailto:info@swabysac.com?subject=Job%20Application">Apply Now!</a></strong>
